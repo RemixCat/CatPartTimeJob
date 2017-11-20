@@ -54,14 +54,22 @@
 		3EC57AF01FC2BCB90063C7EA /* CatPartTimeJob */ = {
 			isa = PBXGroup;
 			children = (
+				A029F5B21FC2CF9300E4D8C0 /* Controller */,
 				3EC57AF11FC2BCB90063C7EA /* AppDelegate.swift */,
-				3EC57AF31FC2BCB90063C7EA /* ViewController.swift */,
 				3EC57AF51FC2BCB90063C7EA /* Main.storyboard */,
 				3EC57AF81FC2BCB90063C7EA /* Assets.xcassets */,
 				3EC57AFA1FC2BCB90063C7EA /* LaunchScreen.storyboard */,
 				3EC57AFD1FC2BCB90063C7EA /* Info.plist */,
 			);
 			path = CatPartTimeJob;
+			sourceTree = "<group>";
+		};
+		A029F5B21FC2CF9300E4D8C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3EC57AF31FC2BCB90063C7EA /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7595BBH37F;
 				INFOPLIST_FILE = CatPartTimeJob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.yourcat.CatPartTimeJob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7595BBH37F;
 				INFOPLIST_FILE = CatPartTimeJob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.yourcat.CatPartTimeJob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
