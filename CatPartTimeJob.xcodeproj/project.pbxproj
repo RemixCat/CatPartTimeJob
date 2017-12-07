@@ -12,6 +12,8 @@
 		3EC57AF71FC2BCB90063C7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC57AF51FC2BCB90063C7EA /* Main.storyboard */; };
 		3EC57AFC1FC2BCB90063C7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC57AFA1FC2BCB90063C7EA /* LaunchScreen.storyboard */; };
 		A0EAE3791FD79BC600EE8F27 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EAE3781FD79BC600EE8F27 /* Media.xcassets */; };
+		A0EAE37B1FD7D04900EE8F27 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EAE37A1FD7D04900EE8F27 /* HomeController.swift */; };
+		A0EAE37D1FD7D0D200EE8F27 /* JianzhituijianTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EAE37C1FD7D0D200EE8F27 /* JianzhituijianTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3EC57AFB1FC2BCB90063C7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EC57AFD1FC2BCB90063C7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0EAE3781FD79BC600EE8F27 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		A0EAE37A1FD7D04900EE8F27 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		A0EAE37C1FD7D0D200EE8F27 /* JianzhituijianTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JianzhituijianTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				3EC57AF31FC2BCB90063C7EA /* ViewController.swift */,
+				A0EAE37A1FD7D04900EE8F27 /* HomeController.swift */,
+				A0EAE37C1FD7D0D200EE8F27 /* JianzhituijianTableCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EC57AF41FC2BCB90063C7EA /* ViewController.swift in Sources */,
+				A0EAE37D1FD7D0D200EE8F27 /* JianzhituijianTableCell.swift in Sources */,
 				3EC57AF21FC2BCB90063C7EA /* AppDelegate.swift in Sources */,
+				A0EAE37B1FD7D04900EE8F27 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +289,7 @@
 		3EC57B011FC2BCB90063C7EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7595BBH37F;
 				INFOPLIST_FILE = CatPartTimeJob/Info.plist;
@@ -297,7 +305,7 @@
 		3EC57B021FC2BCB90063C7EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7595BBH37F;
 				INFOPLIST_FILE = CatPartTimeJob/Info.plist;
